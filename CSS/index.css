@@ -33,6 +33,31 @@
     }
 
 
+    #WebTemplate {
+        background-image: url('../img/1.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 180%;
+    } 
+    #Experience {
+        background-image: url('../img/2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 180%;
+    } 
+    #Education {
+        background-image: url('../img/3.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 180%;
+    } 
+    #Skills {
+        background-image: url('../img/4.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 180%;
+    } 
+
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
