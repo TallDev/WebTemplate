@@ -72,7 +72,7 @@ h2 {
     left: 0;
     display: flex;
     flex-direction: column;
-    width: 100vh;
+    width: 100%;
     height: 17rem;
   }
   #sideNav .navbar-brand {
@@ -93,14 +93,15 @@ h2 {
     margin-bottom: auto;
   }
   #sideNav .navbar-collapse .navbar-nav {
-    flex-direction: column;
+    /*flex-direction: column;*/
     width: 100%;
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item {
     display: block;
   }
-  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+  #sideNav .navbar-collapse .navbar-nav /*.nav-item*/ .nav-link {
     display: block;
+    color: white;
   }
 }
 

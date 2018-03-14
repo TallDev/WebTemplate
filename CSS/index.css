@@ -45,6 +45,12 @@
 }
 
 /* All devices */
-.navbar {
-    color: white!important;
+.navObjekt {
+    color:white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navObjekt:hover {
+    color: #e1f9bb;
+    text-transform: uppercase;
 }
