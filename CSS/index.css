@@ -57,6 +57,21 @@
         background-repeat: no-repeat;
         background-size: 180%;
     } 
+    #Interests {
+        background-image: url('../img/1.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 180%;
+    } 
+    #Awards {
+        background-image: url('../img/2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 180%;
+    } 
+    .logo {
+        text-align: left;
+    }
 
 }
 
@@ -73,9 +88,41 @@
 .navObjekt {
     color:white;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
+
+@keyframes navObjekts {
+    from {
+        color:white;
+        font-weight: 700;
+    }
+    to {
+        color: #0044ff;
+        font-weight: 900;
+        font-size: 1.1em;
+    }
+}
+
+@-webkit-keyframes navObjekts {
+    from {
+        color:white;
+        font-weight: 700;
+    }
+    to {
+        color: #0044ff;
+        font-weight: 900;
+        font-size: 1.1em;
+    }
+}
+
 .navObjekt:hover {
-    color: #e1f9bb;
-    text-transform: uppercase;
+    color: #0044ff;
+    font-weight: 900;
+    font-size: 1.1em;
+    
+    animation-name: navObjekts;
+    animation-duration: 0.6s;
+
+    -webkit-animation-name: navObjekts;
+    -webkit-animation-duration: 0.6s;
 }
